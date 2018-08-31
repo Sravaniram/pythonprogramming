@@ -1,3 +1,3 @@
-a=str(input())
-b=str(input())
-print(a+b)
+s1=str(input())
+s2=str(input())
+print(s1+s2)
