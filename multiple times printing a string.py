@@ -1,3 +1,4 @@
 s=str(input())
 n=int(input())
-print(s*n)
+for x in range(0,n):
+    print(s)
