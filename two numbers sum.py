@@ -1,3 +1,3 @@
-a=int(input())
-b=int(input())
-print(a+b)
+n1=int(input())
+n2=int(input())
+print(n1+n2)
