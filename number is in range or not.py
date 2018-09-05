@@ -1,6 +1,5 @@
 a=int(input( ))
-b=int(input( ))
-c=int(input( ))
+b,c = map(int,input().split())
 if(b<a<c):
     print("yes")
 else:
