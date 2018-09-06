@@ -1,5 +1,5 @@
-n=int(input())
-fact=1
-for x in range(1,n+1):
-    fact=fact*x
-print(fact)
+z=int(input())
+ft=1
+for x in range(1,z+1):
+    ft=ft*x
+print(ft)
