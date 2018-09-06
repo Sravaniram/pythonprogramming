@@ -6,7 +6,9 @@ while(n>0):
     if(a%2!=0):
         s.append(a)
 c=sorted(s)
-for x in c:
-    print(x,end=(" "))
+f=len(c)
+for x in range(0,f-1):
+    print(c[x],end=(" "))
+print(c[f-1])
 
     
