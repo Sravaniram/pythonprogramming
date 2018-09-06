@@ -1,2 +1,2 @@
 a=float(input())
-print(round(a))
+print(int(a)+1)
