@@ -1,8 +1,10 @@
 a=str(input())
+b=['Sunday','Saturday']
 s=['Monday','Tuesday','wednesday','Thursday','Friday']
-if(a=='Sunday' or 'Saturday' ):
-    print('yes')
-else:
-    for x in s:
-        if(a==x):
-            print('no')
+for x in b:
+    if(x==a):
+        print('yes')
+for y in s:
+    if(y==a):
+        print("no")
+    
