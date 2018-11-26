@@ -1,3 +1,4 @@
+i=int(input())
 s=input()
 s1=input()
 s2=[]
