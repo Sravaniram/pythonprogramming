@@ -7,4 +7,4 @@ for x in a:
         if(a.count(x)>1):
             m.append(x)
 n=" ".join(m) 
-print(n[1:])
+print(n)
