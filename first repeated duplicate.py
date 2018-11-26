@@ -6,6 +6,9 @@ for x in a:
     if(x not in m):
         if(a.count(x)>1):
             m.append(x)
-n=" ".join(m) 
-h=n[0:2]
-print(h)
+if(len(m)>1):
+    n=" ".join(m) 
+    h=n[0:1]
+    print(h)
+else:
+    print("unique")
