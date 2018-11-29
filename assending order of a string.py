@@ -1,3 +1,4 @@
+i=int(input())
 s=input().split()
 a=[]
 x=0
