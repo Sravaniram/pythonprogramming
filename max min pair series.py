@@ -1,7 +1,7 @@
 n=int(input())
-l1=input().split()
+l11=input().split()
 l=[]
-for x in l1:
+for x in l11:
     l.append(int(x))
 l.sort()
 a=[]
