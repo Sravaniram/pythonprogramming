@@ -1,10 +1,13 @@
-n,m=map(int,input().split())
-s=[]
-while(n!=0):
-    a=n%10
-    s.append(a)
-    n=int(n/10)
-s.sort()
-k="".join(map(str,s))
-l=len(k)-m
-print(k[:l])
+a,b=input().split()
+b=int(b)
+c=len(a)
+d=[]
+for i in range(0,c):
+	s=a[i]
+	d.append(s)
+w=c-b
+z=[]
+for i in range(b,c):
+	s=d[i]
+	z.append(s)
+print("".join(z))
