@@ -1,0 +1,5 @@
+n,m=map(int,input().split())
+l=input().split()
+l.sort()
+s=" ".join(map(str,l))
+print(s)
