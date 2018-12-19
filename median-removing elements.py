@@ -4,7 +4,7 @@ s=input().split()
 for x in s:
     l.append(int(x))
 x=len(l)
-while(len(l)>1):
+while(len(l)>0):
     if(len(l)%2==0):
         k=l[int(len(l)/2)]+l[int(len(l)/2)-1]
         print(int(k/2))
