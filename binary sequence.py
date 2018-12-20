@@ -6,4 +6,7 @@ for x in range(0,2**n):
     s="".join(map(str,l))
     while(len(s)!=n):
         s='0'+s
-    print(s)
+    if(x!=(2**n)-1):
+        print(s,end=("\n"))
+    else:
+        print(s)
