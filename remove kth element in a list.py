@@ -1,5 +1,5 @@
+m,k=map(int,input().split())
 l=input().split()
-k=int(input())
 s=[]
 for x in range(0,len(l)):
     if(int(l[x])!=k):
