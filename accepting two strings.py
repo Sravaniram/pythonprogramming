@@ -1,5 +1,8 @@
-x1,y1=map(str,input().split())
-if(len(x1)>0 and len(y1)>0):
-    print("yes")
+a,b=input().split(' ')
+for i in range(len(a)):
+   if(i<len(a)-1): 
+      if(a[i]+a[i+1] in b):
+         print("yes")
+         break
 else:
     print("no")
