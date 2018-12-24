@@ -1,6 +1,6 @@
 n,m=map(set,input().split())
 c=0
 if(n==m):
-    print("yes")
+    print("true")
 else:
-    print("no")
+    print("false")
