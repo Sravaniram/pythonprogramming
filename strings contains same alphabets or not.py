@@ -1,5 +1,6 @@
-n,m=map(str,input().split())
-if(sorted(n)==sorted(m)):
+n,m=map(set,input().split())
+c=0
+if(n==m):
     print("yes")
 else:
     print("no")
