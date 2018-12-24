@@ -4,4 +4,6 @@ for x in range(1,n):
     if(a%2!=0 and n%x==0):
         print(x)
         break
+else:
+    print(n)
     
