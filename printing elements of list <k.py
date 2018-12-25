@@ -7,5 +7,6 @@ for x in l:
 for x in l1:
     if(x<m):
         s.append(x)
+s.sort()
 k=" ".join(map(str,s))
 print(k)
