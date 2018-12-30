@@ -1,7 +1,11 @@
-n=list(map(int,input().split()))
-m=list(map(int,input().split()))
-for x in m:
-    n.append(x)
-n.sort()
-s=" ".join(map(str,n))
+m=[]
+n=[]
+k=int(input())
+for x in range(k):
+    n.append(input().split())
+for x in n:
+    for y in x:
+        m.append(int(y))
+m.sort()
+s=" ".join(map(str,m))
 print(s)
