@@ -6,4 +6,4 @@ for x in range(0,n):
         if(l[x]<l[y]):
             l[x],l[y]=l[y],l[x]
 for x in l:
-    print(x)
+    print(x,end=("\n"))
