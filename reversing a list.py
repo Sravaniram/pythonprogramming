@@ -7,5 +7,5 @@ s="->".join(map(str,l))
         print(l[x],end=(""))
     else:
         print(l[x],end=("->"))'''
-print(s)
+print(s,)
     
