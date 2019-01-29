@@ -1,0 +1,15 @@
+n=int(input())
+k=1 
+while(k>0):
+    p=k 
+    s=0
+    while(p>0):
+        o=(p%10)
+        s=s+o
+        p=int(p/10)
+    if(s+k==n):
+        print("1")
+        print(k)
+        break
+    else:
+        k=k+1 
