@@ -1,6 +1,7 @@
 n=int(input())
 k=1 
-while(k>0):
+c=1
+while(k<n):
     p=k 
     s=0
     while(p>0):
@@ -10,6 +11,11 @@ while(k>0):
     if(s+k==n):
         print("1")
         print(k)
+        c=0
         break
     else:
-        k=k+1 
+        k=k+1
+if(c==1):
+    print("0")
+
+
