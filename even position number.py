@@ -4,7 +4,7 @@ l=[]
 k=list(map(int,input().split()))
 p=len(k)
 if(p<=3):
-    print(k[2])
+    print(1)
 else:
     while(p>3):
         for x in range(0,p):
@@ -16,4 +16,4 @@ else:
         k.clear()
         k=l.copy()
         p=len(k)
-    print(k[1])
+    print(p)
