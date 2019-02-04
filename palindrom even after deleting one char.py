@@ -5,7 +5,7 @@ for y in range(0,len(s)):
 
     if(k[:]==k[::-1]):
     
-        print("yes")
+        print("YES")
         break
 else:
-    print("no")
+    print("NO")
