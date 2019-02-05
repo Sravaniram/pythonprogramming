@@ -6,7 +6,7 @@ m=abs(l[0]-l[1])
 a,b=l[0],l[1]
 while(i<n):
     for j in range(0,i):
-        k=min(abs(l[i]+l[j]),abs(l[i]-l[j]))
+        k=abs(l[i]+l[j])
         if(k<=m):
             m=k
             a=l[i]
