@@ -1,2 +1,2 @@
-n=input()
-print(int(n,2))
+n11=input()
+print(int(n11,2))
