@@ -18,4 +18,4 @@ if(c>1):
     print(n[x],end=(""))
     
 else:
-    print(n[x+1])
+    print(n[x+1],end=(""))
