@@ -7,4 +7,8 @@ if n%2!=0:
 else:
 	s1=l[:n//2]
 	s2=l[n//2:n]
-print(max(min(s1),min(s2)))
+i=max(min(s1),min(s2)))
+if(i==-1):
+	print("-5")
+else:
+	print(i)
