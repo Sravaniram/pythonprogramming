@@ -5,17 +5,14 @@ def fact(l):
     return m
 
 n=int(input())
-if(n==2):
-    print("1 1")
-else:
-    a=[]
-    i=0
-    while(i<=n):
-        if(i==0):
-            a.append(1)
-        else:
-            a.append(fact(2*i)//((fact(i+1))*fact(i)))
-        i=i+1
-    p=" ".join(map(str,a))
-    print(p)
+a=[]
+i=0
+while(i<=n):
+    if(i==0):
+        a.append(1)
+     else:
+        a.append(fact(2*i)//((fact(i+1))*fact(i)))
+     i=i+1
+p=" ".join(map(str,a))
+print(p)
         
