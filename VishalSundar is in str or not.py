@@ -1,5 +1,5 @@
 n=input()
 if("Vishal" in n and "Sundar" in n):
-    print("YES")
+    print("yes")
 else:
-    print("NO")
+    print("no")
