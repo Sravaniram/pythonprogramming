@@ -6,7 +6,7 @@ def fact(l):
 
 n=int(input())
 if(n==2):
-    print("1 1 2")
+    print("1 1")
 else:
     a=[]
     i=0
