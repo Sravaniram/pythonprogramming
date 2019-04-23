@@ -1,6 +1,5 @@
 n,m=map(int,input().split())
 k=bin(n*m)
-print(k)
 c=0
 for x in range(len(k)-1,1,-1):
     c=c+1
